@@ -38,8 +38,6 @@ MIRYOKU_X(MAGIC,  "Magic")
 #define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
 #define MIRYOKU_LAYERMAPPING_MAGIC MIRYOKU_MAPPING
 
-#if defined (MIRYOKU_KEYBOARD_GLOVE80)
-
 #define XXX &none
 
 #define MIRYOKU_LAYOUTMAPPING_GLOVE80(\
@@ -80,5 +78,3 @@ N30, N31, K32, K33, K34,                                    K35, K36, K37, N38, 
 &bootloader  &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                                         &none   &none   &none   &none   &none     &bootloader \
 &reset            &none            &none            &none            &none            &none   &bt_2   &bt_3         &none   &none   &none   &none   &none   &none   &none   &none   &none          &reset \
 &none            &none            &none            &none            &none                    &bt_0   &bt_1  &out OUT_USB   &none   &none   &none           &none   &none   &none   &none           &none
-
-#endif
