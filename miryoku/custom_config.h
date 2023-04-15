@@ -35,9 +35,6 @@ MIRYOKU_X(MAGIC,  "Magic")
 #define U_MAGIC  10
 #define U_GAME   11
 
-#define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
-#define MIRYOKU_LAYERMAPPING_MAGIC MIRYOKU_MAPPING
-
 #define XXX &none
 
 #define MIRYOKU_LAYOUTMAPPING_GLOVE80(\
@@ -53,7 +50,7 @@ N30, N31, K32, K33, K34,                                    K35, K36, K37, N38, 
 &kp GRAVE K20  K21  K22  K23  K24  &kp LSHFT  &kp LCTRL  &kp LALT       &kp RALT  &kp RCTRL  &kp RSHFT K25  K26  K27  K28  K29  XXX \
 &magic  XXX  XXX  XXX  XXX       K33  K32  K34       K35  K37  K36       XXX  XXX  XXX  XXX  XXX
 
-#define MIRYOKU_LAYERMAPPING_GAME(\
+#define MIRYOKU_LAYER_GAME(\
 K00, K01, K02, K03, K04,                                    K05, K06, K07, K08, K09, \
 K10, K11, K12, K13, K14,                                    K15, K16, K17, K18, K19, \
 K20, K21, K22, K23, K24,                                    K25, K26, K27, K28, K29, \
@@ -66,7 +63,7 @@ N30, N31, K32, K33, K34,                                    K35, K36, K37, N38, 
 &kp GRAVE  &kp LCTRL  K20  K21  K22  K23  K24  &kp LSHFT  &kp LCTRL  &kp LALT       &kp RALT  &kp RCTRL  &kp RSHFT K25  K26  K27  K28  K29  \
 &magic  XXX  XXX  XXX  XXX       K33  K32  K34       K35  K37  K36       XXX  XXX  XXX  XXX  XXX
 
-#define MIRYOKU_LAYERMAPPING_MAGIC(\
+#define MIRYOKU_LAYER_MAGIC(\
 K00, K01, K02, K03, K04,                                    K05, K06, K07, K08, K09, \
 K10, K11, K12, K13, K14,                                    K15, K16, K17, K18, K19, \
 K20, K21, K22, K23, K24,                                    K25, K26, K27, K28, K29, \
@@ -78,3 +75,6 @@ N30, N31, K32, K33, K34,                                    K35, K36, K37, N38, 
 &bootloader  &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                                         &none   &none   &none   &none   &none     &bootloader \
 &reset            &none            &none            &none            &none            &none   &bt_2   &bt_3         &none   &none   &none   &none   &none   &none   &none   &none   &none          &reset \
 &none            &none            &none            &none            &none                    &bt_0   &bt_1  &out OUT_USB   &none   &none   &none           &none   &none   &none   &none           &none
+
+#define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
+#define MIRYOKU_LAYERMAPPING_MAGIC MIRYOKU_MAPPING
