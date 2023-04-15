@@ -63,9 +63,9 @@ MIRYOKU_X(MAGIC,  "Magic")
 ) \
 &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                                           &kp F6   &kp F7   &kp F8   &kp F9   &kp F10 \
 &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_N4  &kp KP_N5                                &kp KP_N6  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_N0 \
-&kp TAB  K00  K01  K02  K03  K04                                     K05  K06  K07  K08  K09  &kp BSLH \
-&kp ESC &kp LSHFT  K10  K11  K12  K13  K14                                     K15  K16  K17  K18  K19  &kp APOS \
-&kp GRAVE &kp LSHFT  K20  K21  K22  K23  K24  &kp LSHFT  &kp LCTRL  &kp LALT       &kp RALT  &kp RCTRL  &kp RSHFT K25  K26  K27  K28  K29  XXX \
+&kp TAB  &kp TAB  K00  K01  K02  K03  K04                                     K05  K06  K07  K08  K09  \
+&kp ESC  &kp LSHFT  K10  K11  K12  K13  K14                                     K15  K16  K17  K18  K19 \
+&kp GRAVE  &kp LCTRL  K20  K21  K22  K23  K24  &kp LSHFT  &kp LCTRL  &kp LALT       &kp RALT  &kp RCTRL  &kp RSHFT K25  K26  K27  K28  K29  \
 &magic  XXX  XXX  XXX  XXX       K33  K32  K34       K35  K37  K36       XXX  XXX  XXX  XXX  XXX
 
 #define MIRYOKU_LAYERMAPPING_MAGIC( \
